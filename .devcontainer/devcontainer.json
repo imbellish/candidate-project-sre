@@ -1,0 +1,8 @@
+{
+    "name": "test-sre",
+    "dockerFile": "Dockerfile",
+    "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind" ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
