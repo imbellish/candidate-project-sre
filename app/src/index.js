@@ -3,7 +3,7 @@
 // load environment variables
 const { error: dotenvError } = require('dotenv').config();
 if (dotenvError) {
-  throw dotenvError.error;
+  throw dotenvError;
 }
 const MESSAGE = process.env.MESSAGE || 'Hello world!';
 const PORT = parseInt(process.env.PORT, 10) || 3000;

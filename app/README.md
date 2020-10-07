@@ -5,6 +5,8 @@ A simple Express web server that outputs "Hello world!" as a JSON message.
 The following characteristics are configurable in the application through
 environment variables. Create a `.env` file to control the configuration.
 
+**IMPORTANT**: You MUST provide a `.env` file even if you do not override any of the default configuration values.
+
 |Variable|Required|Default|Description|
 |---|:-:|---|---|
 |MESSAGE|F|"Hello world!"|Friendly message|
