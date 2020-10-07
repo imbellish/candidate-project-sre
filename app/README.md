@@ -13,10 +13,24 @@ environment variables. Create a `.env` file to control the configuration.
 ## Usage
 
 ### Run
-Launch the server.
+Launch the server. The npm package `forever` keeps the process alive.
 
 ```bash
 npm start
+```
+
+### Status
+The npm status script uses the `forever` package's `list` command to retrieve the status of the app.
+
+```bash
+npm run status
+```
+
+### Stop
+Then npm stop script uses the `forever` package's `stopall` command can be used to stop the app.
+
+```bash
+npm run stop
 ```
 
 ### Test
