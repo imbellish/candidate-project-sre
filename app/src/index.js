@@ -6,7 +6,7 @@ if (dotenvError) {
   throw dotenvError.error;
 }
 const MESSAGE = process.env.MESSAGE || 'Hello world!';
-const PORT = parseInt(process.env.PORT, 10);
+const PORT = parseInt(process.env.PORT, 10) || 3000;
 
 const express = require('express');
 const app = express();

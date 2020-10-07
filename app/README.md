@@ -8,7 +8,7 @@ environment variables. Create a `.env` file to control the configuration.
 |Variable|Required|Default|Description|
 |---|:-:|---|---|
 |MESSAGE|F|"Hello world!"|Friendly message|
-|PORT|T|n/a|Server port|
+|PORT|F|3000|Server port|
 
 ## Usage
 
