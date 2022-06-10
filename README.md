@@ -2,7 +2,7 @@
 This project assignment asks you to create a basic deployment in a cloud environment. Please use whatever framework/language/environment you are most familiar with. We use AWS and like CDK and Pulumi. Feel free to question the requirements and make suggestions you think are an improvement. Part of the exercise is engaging in a technical discussion with you. We want to dig in and understand how you think as well as how you code.
 
 ## Project Overview
-You will create an environment and then configure the deployed resources. The deployed application will be the `app/` folder provided here which is a simple Node.js web server. The architecture must match the following diagram with 3 small vms. The nginx reverse-proxy should use a simple round-robin load balancing scheme between 2 instances of the app running on separate virtual machines.
+You will create an environment and then configure the deployed resources. The deployed application will be the `app/` folder provided here which is a simple Node.js web server. The architecture must match the functionality shown in the diagram. The nginx reverse-proxy should use a simple round-robin load balancing scheme between 2 instances of the app.
 
 ![architecture](./public/img/test-sre.png)
 
